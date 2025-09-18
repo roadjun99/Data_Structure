@@ -30,9 +30,9 @@ class Polynomial:
         return result
 
     def sub(self, p):
-        return self.add(p.negate())
+        return self.add(p.minus())
 
-    def negate(self):
+    def minus(self):
         result = Polynomial()
         result.arr = [-x for x in self.arr]
 
