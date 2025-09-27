@@ -12,5 +12,5 @@ for i in list1[1:]:
     else:
         count *= i
     
-
-print(count  # ')'가 없기 때문에 오류 발생
+# ')'가 없기 때문에 오류 발생
+print(count
