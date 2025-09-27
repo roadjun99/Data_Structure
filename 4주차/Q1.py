@@ -1,3 +1,5 @@
+#모든 괄호 쌍 일치하기 때문에 오류가 발생되지 않음
+
 import sys
 from collections import deque
 input = sys.stdin.readline
@@ -75,4 +77,5 @@ while True:
         break
     elif chunks >= 2: 
         print(year)
+
         break
